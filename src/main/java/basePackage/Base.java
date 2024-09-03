@@ -112,7 +112,7 @@ public class Base {
 		File destinateFile = new File(System.getProperty("screenshot.dir")+"\\screenshot"+filename + ".png");
 		FileUtils.copyFileToDirectory(sourceFile, destinateFile);
 
-	}
+	} 
 	
 	public static void capture_screenShot(String filename) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
