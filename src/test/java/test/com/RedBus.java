@@ -20,7 +20,7 @@ public class RedBus extends Base {
 	private void browser() {
 		browser("chrome");
 		getUrl("https://www.redbus.in/");
-
+        System.out.println("Vanakam da mapla");
 	}
 
 	@Test(priority = 1)
